@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="MyTest" time="0.057" tests="29" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\raols\OneDrive\Desktop\files\UIC Classes\UIC semster #3\Rshir2Project3\project3\JavaFX_GUIServer_Maven\target\test-classes;C:\Users\raols\OneDrive\Desktop\files\UIC Classes\UIC semster #3\Rshir2Project3\project3\JavaFX_GUIServer_Maven\target\classes;C:\Users\raols\.m2\repository\org\junit\jupiter\junit-jupiter\5.6.2\junit-jupiter-5.6.2.jar;C:\Users\raols\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.2\junit-jupiter-api-5.6.2.jar;C:\Users\raols\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\raols\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\raols\.m2\repository\org\junit\platform\junit-platform-commons\1.6.2\junit-platform-commons-1.6.2.jar;C:\Users\raols\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.2\junit-jupiter-params-5.6.2.jar;C:\Users\raols\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.2\junit-jupiter-engine-5.6.2.jar;C:\Users\raols\.m2\repository\org\junit\platform\junit-platform-engine\1.6.2\junit-platform-engine-1.6.2.jar;C:\Users\raols\.m2\repository\org\openjfx\javafx-controls\12.0.1\javafx-controls-12.0.1.jar;C:\Users\raols\.m2\repository\org\openjfx\javafx-controls\12.0.1\javafx-controls-12.0.1-win.jar;C:\Users\raols\.m2\repository\org\openjfx\javafx-graphics\12.0.1\javafx-graphics-12.0.1.jar;C:\Users\raols\.m2\repository\org\openjfx\javafx-graphics\12.0.1\javafx-graphics-12.0.1-win.jar;C:\Users\raols\.m2\repository\org\openjfx\javafx-base\12.0.1\javafx-base-12.0.1.jar;C:\Users\raols\.m2\repository\org\openjfx\javafx-base\12.0.1\javafx-base-12.0.1-win.jar;C:\Users\raols\.m2\repository\org\openjfx\javafx-fxml\12\javafx-fxml-12.jar;C:\Users\raols\.m2\repository\org\openjfx\javafx-fxml\12\javafx-fxml-12-win.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin"/>
+    <property name="sun.java.command" value="C:\Users\raols\AppData\Local\Temp\surefire5658223288712691954\surefirebooter7379528803658447374.jar C:\Users\raols\AppData\Local\Temp\surefire5658223288712691954 2025-06-22T17-47-09_737-jvmRun1 surefire14970878867688900599tmp surefire_03738897404076696155tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\raols\OneDrive\Desktop\files\UIC Classes\UIC semster #3\Rshir2Project3\project3\JavaFX_GUIServer_Maven\target\test-classes;C:\Users\raols\OneDrive\Desktop\files\UIC Classes\UIC semster #3\Rshir2Project3\project3\JavaFX_GUIServer_Maven\target\classes;C:\Users\raols\.m2\repository\org\junit\jupiter\junit-jupiter\5.6.2\junit-jupiter-5.6.2.jar;C:\Users\raols\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.2\junit-jupiter-api-5.6.2.jar;C:\Users\raols\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\raols\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\raols\.m2\repository\org\junit\platform\junit-platform-commons\1.6.2\junit-platform-commons-1.6.2.jar;C:\Users\raols\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.2\junit-jupiter-params-5.6.2.jar;C:\Users\raols\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.2\junit-jupiter-engine-5.6.2.jar;C:\Users\raols\.m2\repository\org\junit\platform\junit-platform-engine\1.6.2\junit-platform-engine-1.6.2.jar;C:\Users\raols\.m2\repository\org\openjfx\javafx-controls\12.0.1\javafx-controls-12.0.1.jar;C:\Users\raols\.m2\repository\org\openjfx\javafx-controls\12.0.1\javafx-controls-12.0.1-win.jar;C:\Users\raols\.m2\repository\org\openjfx\javafx-graphics\12.0.1\javafx-graphics-12.0.1.jar;C:\Users\raols\.m2\repository\org\openjfx\javafx-graphics\12.0.1\javafx-graphics-12.0.1-win.jar;C:\Users\raols\.m2\repository\org\openjfx\javafx-base\12.0.1\javafx-base-12.0.1.jar;C:\Users\raols\.m2\repository\org\openjfx\javafx-base\12.0.1\javafx-base-12.0.1-win.jar;C:\Users\raols\.m2\repository\org\openjfx\javafx-fxml\12\javafx-fxml-12.jar;C:\Users\raols\.m2\repository\org\openjfx\javafx-fxml\12\javafx-fxml-12-win.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\raols"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.12"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\raols\OneDrive\Desktop\files\UIC Classes\UIC semster #3\Rshir2Project3\project3\JavaFX_GUIServer_Maven"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\raols\AppData\Local\Temp\surefire5658223288712691954\surefirebooter7379528803658447374.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.12+8-LTS-237"/>
+    <property name="user.name" value="raols"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\raols\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\raols\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.12"/>
+    <property name="user.dir" value="C:\Users\raols\OneDrive\Desktop\files\UIC Classes\UIC semster #3\Rshir2Project3\project3\JavaFX_GUIServer_Maven"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\cygwin64\bin;C:\MinGW\bin;C:\Android;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.12\bin;C:\Apache Software\apache-maven\apache-maven-3.8.2\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Maven\apache-maven-3.9.9\bin;C:\Program Files\Git\cmd;C:\Users\raols\.cargo\bin;C:\Users\raols\AppData\Local\Microsoft\WindowsApps;C:\cygwin64\bin;C:\MinGW\bin;C:\Users\raols\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm 2022.2.1\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2022.2.1\bin;;C:\Users\raols\.dotnet\tools;C:\Users\raols\AppData\Roaming\npm;C:\Users\raols\AppData\Local\GitHubDesktop\bin;C:\Users\raols\.bun\bin;c:\Users\raols\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.12+8-LTS-237"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="test2_BaccaratGameLogic_handTotal" classname="MyTest" time="0.022"/>
+  <testcase name="test2_BaccaratDealer_generateDeck" classname="MyTest" time="0.001"/>
+  <testcase name="test2_BaccaratGame_startGame" classname="MyTest" time="0.003"/>
+  <testcase name="test2_BaccaratDealer_drawOne" classname="MyTest" time="0.002"/>
+  <testcase name="test_BaccaratDealer_shuffleDeck" classname="MyTest" time="0.001"/>
+  <testcase name="test2_BaccaratGameLogic_evaluateBankerDraw" classname="MyTest" time="0.001"/>
+  <testcase name="test2_BaccaratGame_BankerPoints" classname="MyTest" time="0"/>
+  <testcase name="test2_BaccaratDealer_dealHand" classname="MyTest" time="0"/>
+  <testcase name="test2_BaccaratDealer_deckSize" classname="MyTest" time="0"/>
+  <testcase name="test2_BaccaratGame_getBet" classname="MyTest" time="0"/>
+  <testcase name="test2_BaccaratGameLogic_WhoWon" classname="MyTest" time="0"/>
+  <testcase name="test_BaccaratGame_BankerPoints" classname="MyTest" time="0"/>
+  <testcase name="test_BaccaratGameLogic_WhoWon" classname="MyTest" time="0"/>
+  <testcase name="test_BaccaratGameLogic_handTotal" classname="MyTest" time="0"/>
+  <testcase name="test2_BaccaratGameLogic_evaluatePlayerDraw" classname="MyTest" time="0"/>
+  <testcase name="test_BaccaratDealer_generateDeck" classname="MyTest" time="0"/>
+  <testcase name="test_BaccaratDealer_dealHand" classname="MyTest" time="0.01"/>
+  <testcase name="test_BaccaratDealer_deckSize" classname="MyTest" time="0"/>
+  <testcase name="test_BaccaratGameLogic_evaluateBankerDraw" classname="MyTest" time="0"/>
+  <testcase name="test_BaccaratGame_startGame" classname="MyTest" time="0"/>
+  <testcase name="test2_BaccaratGame_PlayerPoints" classname="MyTest" time="0.003"/>
+  <testcase name="test_BaccaratDealer_drawOne" classname="MyTest" time="0.001"/>
+  <testcase name="test_Card_Constructor" classname="MyTest" time="0.001"/>
+  <testcase name="test_BaccaratGame_evaluateWinnings" classname="MyTest" time="0"/>
+  <testcase name="test2_BaccaratDealer_shuffleDeck" classname="MyTest" time="0"/>
+  <testcase name="test2_BaccaratGame_evaluateWinnings" classname="MyTest" time="0"/>
+  <testcase name="test_BaccaratGame_getBet" classname="MyTest" time="0"/>
+  <testcase name="test_BaccaratGame_PlayerPoints" classname="MyTest" time="0"/>
+  <testcase name="test_BaccaratGameLogic_evaluatePlayerDraw" classname="MyTest" time="0"/>
+</testsuite>
